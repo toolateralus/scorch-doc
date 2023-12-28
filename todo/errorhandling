@@ -1,0 +1,3 @@
+
+panic!() is used all over for error handling, implement a couple of error handling classes & types, and implement them. one for the parser, one for the interpreter, at least, but
+probably one for each stage, tokens, parser, interpreter.

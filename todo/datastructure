@@ -1,0 +1,4 @@
+the general data structure of the program probably has many severe deficiencies due to our lack of understanding of rust: 
+if we can, we want it to be possible to stack allocate structs, values, functions, etc, and then have optional stack allocation.
+right now, we're fully heap allocated for the most part, mostly due to struggles in designing the backend and using rust.
+I think we can replace quite a few usages of Box<> and Rc<RefCell<>> with lifetime specifiers and & references, which I think is how wec can achieve this goal.
