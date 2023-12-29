@@ -4,7 +4,7 @@
 - all declarations are default immutable. `const` & `var` can be used to declare a field as mutable or not explicitly.
 
 #### explicit
-```
+```.scorch
 my_variable : Int = 0
 var my_bool : Bool = false
 my_bool = 10
